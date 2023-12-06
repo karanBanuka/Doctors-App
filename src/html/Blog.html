@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>My Blog Page</title>
+     <!-- Bootstrap CSS -->
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+     <!-- Font Awesome CSS (for social media icons) -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+     <!-- Custom CSS -->
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-size: cover;
+            max-width:100%;
+            background-image:url('../media/blogs.jpg');/* Add the path to your background image */
+            font-family: Arial, sans-serif;
+            color: #333; /* Text color */
+        }
+        .maindiv
+        {
+            margin: 0;
+            padding: 0;
+        }
+        .blog-container {
+            max-width: 800px;
+            margin-left: 600px ;
+            margin-top: 100px;
+            background-color: rgba(255, 255, 255, 0.8); /* Blog container background color */
+           
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Box shadow for the container */
+        }
+
+        .blog-post {
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            color: #0066cc; /* Heading color */
+        }
+
+        .navbar {
+            background-color: #2a2828; /* Navbar background color */
+            color: aqua;
+            width: 100%;
+            height: 70px;
+            z-index: 2; /* Ensure the navbar is above other sections */
+        }
+
+        .navbar-collapse {
+            margin-right: 450px; /* Adjusted margin for better alignment */
+        }
+
+        .nav-item {
+            margin-right: 10px;
+        }
+        .footer {
+            background-color:  #2a2828; /* Footer background color */
+            color: #fff;
+            padding: 5px 0px;
+            width: 100%;
+            position: fixed;
+            bottom: 0;
+            height: 170px;
+
+            z-index: 2; /* Ensure the footer is above other sections */
+        }
+
+        .footer-link {
+            color: #fff;
+        }
+
+        .social-icons {
+            font-size: 15px;
+            margin-right: 15px;
+            margin-top: 10px;
+        }
+        .non-clickable {
+            pointer-events: none; /*Disable pointer events to make it non-clickable*/
+            cursor: not-allowed; /* Set cursor to indicate non-availability */
+        }
+    </style>
+</head>
+<body>
+    <!-- navigaation-bar Container -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="#">Docterz</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
+                aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="chwebsite.html">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="AboutUs.html">Docterz App</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="Reception.html">Reception App</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="Doctor_Testimonals.html">Doctors Testimonials</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="Team.html">Team</a>
+            </li>
+            <li class="nav-item active non-clickable">
+                <a class="nav-link" href="Blog.html">Blog</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="Contact.html">Contact</a>
+            </li>
+            </ul>
+        </div>
+    </nav>
+<!-- Blog Container -->
+<div class="maindiv">  
+<div class="blog-container">
+    <!-- Blog Post 1 -->
+    <div class="blog-post">
+        <h2>Docterz is a program to give affordable healthcare to masses without compromising quality</h2>
+        <p>Docterz is a program made by doctors for doctors.
+            1 nation, 134 crore people, 22 languages, 10 lac doctors. Each doctor works uniquely with their patients.
+            Doctor's Log-in
+            Doctor's Sign-up
+            Feedback
+            For live demo call 72086</p>
+    </div>
+
+    <!-- Blog Post 2 -->
+    
+</div>
+
+    <!-- Add more blog posts as needed -->
+</div>
+<!-- Footer -->
+<footer class="footer text-center">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <h5>Follow Us</h5>
+                <ul class="list-unstyled">
+                    <li><a href="#" class="footer-link"><i class="fab fa-facebook-square social-icons"></i>Facebook</a></li>
+                    <li><a href="#" class="footer-link"><i class="fab fa-twitter-square social-icons"></i>Twitter</a></li>
+                    <li><a href="#" class="footer-link"><i class="fab fa-instagram-square social-icons"></i>Instagram</a></li>
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <h5>Get Help</h5>
+                <a href="#" class="btn btn-primary btn-sm">Contact Support</a>
+            </div>
+            <div class="col-md-4">
+                <h5>Additional Links</h5>
+                <ul class="list-unstyled">
+                    <li><a href="#" class="footer-link">Privacy Policy</a></li>
+                    <li><a href="#" class="footer-link">Terms of Service</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <p>&copy; 2023 Docterz App</p>
+    </div>
+</footer>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<script>
+    function redirectToPage(url) {
+        window.location.href = url;
+    }
+</script>
+
+
+</body>
+</html>
